@@ -4,6 +4,7 @@
         "ms-python.python",
         "ms-python.debugpy",
         "ms-python.vscode-python-envs",
-        "mhutchie.git-graph"
+        "mhutchie.git-graph",
+        "tamasfe.even-better-toml"
     ]
 }
