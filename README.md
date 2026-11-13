@@ -1,5 +1,9 @@
 # Configure Visual Studio Code for Python Development and Debugging
 
+- python-args-parse --arg1 "Cat" --arg2 "Dog"
+- python-template
+- See toml file for commands definition
+
 This guide describes a clean Python development and debugging setup in
 Visual Studio Code, with a focus on Ubuntu/WSL and project-local virtual
 environments.

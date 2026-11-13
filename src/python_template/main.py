@@ -1,15 +1,36 @@
-def calculate(a: int, b: int) -> int:
-    result = a * b
-    return result
+import subprocess
+
+
+def run_cli_command(
+    command: list[str],
+    timeout: int = 60,
+) -> subprocess.CompletedProcess[str]:
+    return subprocess.run(
+        command,
+        capture_output=True,
+        text=True,
+        check=True,
+        timeout=timeout,
+    )
 
 
 def main() -> None:
-    x = 10
-    y = 20
+    print("Hello from python-template!")
 
-    result = calculate(x, y)
+    fruits = ["Apple", "Orange", "Watermelon"]
 
-    print(f"Result: {result}")
+    for index, fruit in enumerate(fruits):
+        print(f"The fruit is {fruit} with number {index}")
+
+    commands = [
+        ["git", "status"],
+        ["git", "branch", "--show-current"],
+        ["git", "log", "-1", "--oneline"],
+    ]
+
+    for command in commands:
+        result = run_cli_command(command)
+        print(result.stdout.strip())
 
 
 if __name__ == "__main__":

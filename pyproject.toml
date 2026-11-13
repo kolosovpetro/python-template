@@ -13,6 +13,7 @@ dependencies = [
 
 [project.scripts]
 python-template = "python_template.main:main"
+python-args-parse = "python_template.args.main:main"
 
 [build-system]
 requires = ["uv_build>=0.13.8,<0.14.0"]
