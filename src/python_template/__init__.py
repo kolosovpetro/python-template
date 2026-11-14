@@ -1,1 +1,0 @@
-"""Python Template CLI application."""
