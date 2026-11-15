@@ -22,11 +22,19 @@ def parse_arguments() -> argparse.Namespace:
     )
 
     parser.add_argument(
-        "--name", type=str, required=False, help="Name", default="Petro"
+        "--name",
+        type=str,
+        required=False,
+        help="Name",
+        default="Petro",
     )
 
     parser.add_argument(
-        "--surname", type=str, required=False, help="Surname", default="Kolosov"
+        "--surname",
+        type=str,
+        required=False,
+        help="Surname",
+        default="Kolosov",
     )
 
     return parser.parse_args()

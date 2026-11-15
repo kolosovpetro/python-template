@@ -12,11 +12,16 @@
     "cSpell.words": [
         "charliermarsh",
         "debugpy",
+        "docstrings",
+        "isort",
         "Kolosov",
         "mypy",
         "oneline",
         "pycache",
+        "pycodestyle",
+        "Pyflakes",
         "pytest",
+        "pyupgrade",
         "tamasfe",
         "tfstate",
         "venv"
