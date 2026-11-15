@@ -19,7 +19,7 @@ uv add requests
 uv add --dev pytest ruff mypy
 
 # run python
-uv run python main.py
+uv run python examples/main.py
 
 # run tests
 uv run pytest

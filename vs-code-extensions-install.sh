@@ -1,1 +1,8 @@
-code --install-extension tamasfe.even-better-toml
+code --install-extension "ms-python.vscode-pylance"
+code --install-extension "ms-python.python"
+code --install-extension "ms-python.debugpy"
+code --install-extension "ms-python.vscode-python-envs"
+code --install-extension "tamasfe.even-better-toml"
+code --install-extension "charliermarsh.ruff"
+code --install-extension "editorconfig.editorconfig"
+code --install-extension "streetsidesoftware.code-spell-checker"

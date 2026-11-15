@@ -1,12 +1,41 @@
 {
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "name": "Python: Current File",
-            "type": "debugpy",
-            "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal"
-        }
-    ]
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Current File",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "args": [
+        "--arg1",
+        "Cat",
+        "--arg2",
+        "Dog",
+        "--name",
+        "Petro",
+        "--surname",
+        "Kolosov"
+      ],
+      "justMyCode": true
+    },
+    {
+      "name": "Python: Current File 2",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "args": [
+        "--arg1",
+        "Cat2",
+        "--arg2",
+        "Dog2",
+        "--name",
+        "Petro2",
+        "--surname",
+        "Kolosov2"
+      ],
+      "justMyCode": true
+    },
+  ]
 }

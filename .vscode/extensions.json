@@ -4,7 +4,9 @@
         "ms-python.python",
         "ms-python.debugpy",
         "ms-python.vscode-python-envs",
-        "mhutchie.git-graph",
-        "tamasfe.even-better-toml"
+        "tamasfe.even-better-toml",
+        "charliermarsh.ruff",
+        "editorconfig.editorconfig",
+        "streetsidesoftware.code-spell-checker"
     ]
 }
