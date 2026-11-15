@@ -26,7 +26,7 @@ def parse_arguments() -> argparse.Namespace:
         type=str,
         required=False,
         help="Name",
-        default="Petro",
+        default="Nikolas",
     )
 
     parser.add_argument(
@@ -34,7 +34,7 @@ def parse_arguments() -> argparse.Namespace:
         type=str,
         required=False,
         help="Surname",
-        default="Kolosov",
+        default="Steiner",
     )
 
     return parser.parse_args()

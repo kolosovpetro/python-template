@@ -4,16 +4,11 @@ This guide describes a clean Python development and debugging setup in
 Visual Studio Code, with a focus on Ubuntu/WSL and project-local virtual
 environments.
 
-## 1. Install Python in Ubuntu/WSL
+## 1. Initialize venv
 
-``` bash
-sudo apt update
-
-sudo apt install -y \
-  python3 \
-  python3-pip \
-  python3-venv
-```
+- uv venv
+- uv python pin 3.14
+- source .venv/bin/activate
 
 Verify the installation:
 

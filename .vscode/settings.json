@@ -16,6 +16,7 @@
     "isort",
     "Kolosov",
     "mypy",
+    "Nikolas",
     "oneline",
     "pycache",
     "pycodestyle",
