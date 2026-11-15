@@ -1,12 +1,12 @@
 {
-    "recommendations": [
-        "ms-python.vscode-pylance",
-        "ms-python.python",
-        "ms-python.debugpy",
-        "ms-python.vscode-python-envs",
-        "tamasfe.even-better-toml",
-        "charliermarsh.ruff",
-        "editorconfig.editorconfig",
-        "streetsidesoftware.code-spell-checker"
-    ]
+  "recommendations": [
+    "ms-python.vscode-pylance",
+    "ms-python.python",
+    "ms-python.debugpy",
+    "ms-python.vscode-python-envs",
+    "tamasfe.even-better-toml",
+    "charliermarsh.ruff",
+    "editorconfig.editorconfig",
+    "streetsidesoftware.code-spell-checker"
+  ]
 }

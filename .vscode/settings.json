@@ -1,59 +1,59 @@
 {
-    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
-    "python.terminal.activateEnvironment": true,
-    "[python]": {
-        "editor.defaultFormatter": "charliermarsh.ruff",
-        "editor.formatOnSave": true,
-        "editor.codeActionsOnSave": {
-            "source.fixAll": "explicit",
-            "source.organizeImports": "explicit"
-        }
-    },
-    "cSpell.words": [
-        "charliermarsh",
-        "debugpy",
-        "docstrings",
-        "isort",
-        "Kolosov",
-        "mypy",
-        "oneline",
-        "pycache",
-        "pycodestyle",
-        "Pyflakes",
-        "pytest",
-        "pyupgrade",
-        "tamasfe",
-        "tfstate",
-        "venv"
-    ],
-    "files.associations": {
-        "*.toml": "toml"
-    },
-    "editor.mouseWheelZoom": true,
-    "editor.fontSize": 14,
-    "editor.rulers": [
-        80
-    ],
-    "editor.wordWrap": "off",
-    "window.zoomLevel": 0,
-    "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
-    "editor.fontLigatures": true,
-    "editor.lineHeight": 22,
-    "editor.fontWeight": "300",
-    "editor.letterSpacing": 0.2,
-    // Format automatically when saving
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+  "python.terminal.activateEnvironment": true,
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
     "editor.formatOnSave": true,
-    // Format pasted code
-    "editor.formatOnPaste": true,
-    // Format selected code
-    "editor.formatOnType": false,
-    // Remove trailing whitespace
-    "files.trimTrailingWhitespace": true,
-    // Add a final newline
-    "files.insertFinalNewline": true,
-    "workbench.editor.enablePreview": false,
-    "workbench.editor.enablePreviewFromQuickOpen": false,
-    "workbench.list.openMode": "doubleClick",
-    "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 1000,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    }
+  },
+  "cSpell.words": [
+    "charliermarsh",
+    "debugpy",
+    "docstrings",
+    "isort",
+    "Kolosov",
+    "mypy",
+    "oneline",
+    "pycache",
+    "pycodestyle",
+    "Pyflakes",
+    "pytest",
+    "pyupgrade",
+    "tamasfe",
+    "tfstate",
+    "venv"
+  ],
+  "files.associations": {
+    "*.toml": "toml"
+  },
+  "editor.mouseWheelZoom": true,
+  "editor.fontSize": 14,
+  "editor.rulers": [
+    80
+  ],
+  "editor.wordWrap": "off",
+  "window.zoomLevel": 0,
+  "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 22,
+  "editor.fontWeight": "300",
+  "editor.letterSpacing": 0.2,
+  // Format automatically when saving
+  "editor.formatOnSave": true,
+  // Format pasted code
+  "editor.formatOnPaste": true,
+  // Format selected code
+  "editor.formatOnType": false,
+  // Remove trailing whitespace
+  "files.trimTrailingWhitespace": true,
+  // Add a final newline
+  "files.insertFinalNewline": true,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.list.openMode": "doubleClick",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
 }
