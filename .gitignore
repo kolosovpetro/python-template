@@ -6,7 +6,6 @@
 *.lock.info
 *.tfstate.backup
 azure.sas.conf
-*.txt
 id_rsa
 id_rsa.pub
 *.pfx
@@ -17,3 +16,4 @@ id_rsa.pub
 __pycache__/
 *.py[cod]
 .pytest_cache/
+uv.lock
